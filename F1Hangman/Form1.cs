@@ -52,7 +52,7 @@ namespace F1Hangman
             correctWord = words[randomIndex].ToLower();
             hiddenWord = "";
 
-            // Replacing each letter with "_"
+            // Replacing each letter with "."
             for (int i = 0; i < correctWord.Length; i++)
             {
                 char currentChar = words[randomIndex][i];
@@ -65,6 +65,7 @@ namespace F1Hangman
                     hiddenWord += '.';
                 }
             }
+
             // Displaying hidden word
             label2.Text = hiddenWord;
             label1.Text = correctWord; // Showing for testing purpose
