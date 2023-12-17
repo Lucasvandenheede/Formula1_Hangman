@@ -101,7 +101,7 @@ namespace F1Hangman
                 {
                     if (correctWord[i].ToString() == guess)
                     {
-                        // Replace the underscore at the correct position with the guessed letter
+                        // Replace the . at the correct position with the guessed letter
                         label2.Text = label2.Text.Substring(0, i) + guess + label2.Text.Substring(i + 1);
                     }
                 }
