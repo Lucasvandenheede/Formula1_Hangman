@@ -107,6 +107,7 @@ namespace F1Hangman
             this.label1.Size = new System.Drawing.Size(70, 13);
             this.label1.TabIndex = 8;
             this.label1.Text = "Correct Word";
+            this.label1.Visible = false;
             // 
             // Form1
             // 
